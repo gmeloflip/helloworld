@@ -94,7 +94,7 @@ class ToDo:
             print('\nLista de tarefas vazias.')
 
     def enviar_email(self):
-        endereco = 'gmeloflip@gmail.com'
+        endereco = 'xxxxx@gmail.com'
         senha = ''
 
         with open('./src/Senha/Senha.txt','r', encoding='utf8') as arquivo:
@@ -133,7 +133,7 @@ class ToDo:
 
     def enviar_Wwats(self):
         try:
-            numero_destino = '+5511964451910'
+            numero_destino = '+xxxxx'
             mensagem = 'Teste de mensagem\nteste'
 
             kit.sendwhatmsg_instantly(numero_destino, mensagem, wait_time=15)
